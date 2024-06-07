@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>David Levine - Portfolio</title>
+</head>
+<body>
+    <div id="cursor-light" class="cursor-light hidden"></div>
+    <header>
+        <nav class="px-5 navbar navbar-expand-lg navbar-dark container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/profile-pic.jpeg" class="rounded-5 me-2" width="50" height="50" alt="David Levine"> DAVID LEVINE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-4" href="#about-me">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <div class="vignette">
+                <img src="./assets/profile-pic.jpeg" alt="David Levine profile-picture">
+            </div>
+            <h1 class="section-header">ABOUT ME</h1>
+            <p class="section-text">Hey there! I'm David, and I'm a full stack developer. I have 3 years experience in Angular frontend and NodeJS/GraphQL backend. I enjoy taking ownership of the features I'm working on and proactively contemplating potential bugs and edge-cases and solving for them preemptively. I especially enjoy working in small, versatile teams where I can have the opportunity to approach features holistically and use the hands-on vantage point of a developer to help inform the design and product development process as well.</p>
+        </section>
+        <hr>
+        <section id="portfolio-section">
+            <h1 class="section-header">PORTFOLIO</h1>
+            <article>
+                <h2>HighWire</h2>
+                <div class="description-laptop-container">
+                    <div class="laptop-outer-container laptop-right">
+                        <div class="laptop-container">
+                            <div class="laptop-frame">
+                                <iframe src="http://localhost:4200" name="iframe_a" zoom="50" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-description right-text">
+                        <p>Highwire is a fully functional news website, where users can login, write and edit article and like or dislike articles by others.</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <h2>FinTrack</h2>
+                <div class="description-laptop-container">
+                    <div class="laptop-outer-container laptop-left">
+                        <div class="laptop-container">
+                            <div class="laptop-frame">
+                                <iframe src="https://bing.com" name="iframe_a" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Highwire is a fully functional news website built with Angular, Node.js, Express and MongoDB, where users can login, write and edit article and like or dislike articles by others.</p>
+                    </div>
+                </div>
+            </article>
+            <hr>
+            <article>
+                <h2>IsraelApps</h2>
+                <div class="description-laptop-container">
+                    <div class="laptop-outer-container laptop-right">
+                        <div class="laptop-container">
+                            <div class="laptop-frame">
+                                <iframe src="http://localhost:5502" name="iframe_a" frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-description right-text">
+                        <p>Highwire is a fully functional news website, where users can login, write and edit article and like or dislike articles by others.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</body>
+</html>
